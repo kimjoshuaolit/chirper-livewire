@@ -2,6 +2,9 @@
 
 use App\Http\Controllers\ChirpController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Mail;
+
+
 
 Route::view('/', 'welcome');
 
